@@ -71,7 +71,7 @@ text_xy = ((WIN_WIDTH - text.size(f"Штрафных очков {round(penalty, 
 btn = pygame.Surface((BTN_W, BTN_H))
 btn.fill(BLUE)
 text1 = "ИГРАТЬ СНОВА"
-text1_xy = ((WIN_WIDTH - text.size(text1)[0]) // 2,((WIN_HEIGHT + BTN_H) -text.size(text1)[1]) // 2)
+text1_xy = ((WIN_WIDTH - text.size(text1)[0]) // 2, ((WIN_HEIGHT + BTN_H) - text.size(text1)[1]) // 2)
 
 result = [WIN_HEIGHT / 2.0]
 yyy = [player_rect.y] * 200
